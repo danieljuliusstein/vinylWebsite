@@ -1,0 +1,243 @@
+
+* {
+  
+  font-family: 'Nebula', sans-serif;
+}
+/* Overall page sizing and background color */
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0; 
+  background: #121723;
+  overflow-x: hidden;
+  color: white;
+}
+
+
+
+/* Styling for the div with class "icon" */
+.imdaniel {
+  background-color: #121723;
+  padding-top: 250px;
+  padding-bottom: 500px;
+}
+.daniel {
+  text-decoration: #91d8ef;
+}
+/* Header bar styling */
+.headerBar {
+  background-color: #121723;
+  position: sticky;
+  top: 0; /* Ensure it sticks to the top */
+  text-align: right;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+/* Link styling */
+.nav-item a {
+  color: black;
+}
+
+.nav-item a:link, a:visited {
+  color: white;
+}
+
+.nav-item a:hover {
+  color: #91d8ef;
+}
+
+a:active {
+  color: #121723;
+}
+.shoppingButton {
+  background:none;
+}
+
+.shoppingButton:hover{
+  background: #91d8ef;
+}
+/* Logo styling */
+.logo {
+  text-decoration: none;
+  margin: 1%;
+  padding-left: 1%;
+  padding-right: 3%;
+  float: left;
+  width: auto;
+  height: auto;
+}
+
+/* Navigation link styling */
+.home, .portfolio, .resume {
+  text-decoration: none;
+  margin: 70px;
+  padding: 20px;
+  float: right;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 8px;
+}
+
+/* Footer bar styling */
+#footerbar {
+  background-color: #363e47;
+  position: sticky;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 70px;
+  overflow: hidden;
+}
+
+/* Icon styling */
+.icon {
+  scale: 100%;
+  border-radius: 30%;
+  width: 70px;
+  height: auto;
+  padding: 15px;
+}
+
+/* Text styling */
+.hi {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  padding: 300px;
+}
+
+.line {
+  height: 2px;
+  background: #121723;
+}
+
+.aboutMe {
+  font-size: 30px;
+}
+
+.aboutMeText {
+  font-size: 15px;
+  font-family: 'Courier New', Courier, monospace;
+  margin-bottom: 0;
+}
+
+.whatIKnow, .projSect, .hobbies {
+  font-size: 30px;
+  padding: 50px;
+  margin: 0;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.daniel {
+  color: #91d8ef;
+  font-size: 50px;
+}
+
+.seperator, .header p1, .header p2, .header p3 {
+  color: #91d8ef;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.frontEnd, .learning {
+  padding: 50px;
+}
+
+#pImage, #cImage, #iGallery {
+  margin: 50px;
+  border: 3px solid #fff;
+  width: 500px;
+  height: auto;
+}
+
+.testimonials {
+  margin: 20px;
+}
+
+.shoppingButton {
+  padding-left: 10px;
+
+  border: none;
+  background: none;
+}
+.media {
+  float: left;
+}
+.linkedIn {
+  width: 32px;
+  height: auto;
+}
+.google {
+  padding: 5px;
+  width: 38px;
+  height: auto;
+}
+.fb {
+  width: 35px;
+  height: auto;
+}
+
+.twitter {
+  width: 40px;
+  height: auto;
+}
+
+.github {
+  padding-left: 5px;
+  width: 28px;
+  height: auto;
+}
+.bg-company-red {
+  background-color: #121723 !important;
+}
+
+.custom-hr {
+  width: 50%;
+  text-align: left;
+  margin-left: 0;
+  border: none; /* Remove default border */
+  border-top: 1px solid #ccc; /* Add a custom border */
+  background-color: transparent; /* Ensure background does not affect styling */
+}
+
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
